@@ -1,6 +1,6 @@
 # ExchangeOps: Incident Commander
 
-A playable crypto-exchange crisis simulation.
+A playable crypto exchange crisis simulation.
 
 [Play the live demo →](https://exchangeops.seangaolab.com)
 
@@ -15,25 +15,29 @@ A playable crypto-exchange crisis simulation.
 
 ## About the simulation
 
-**ExchangeOps: Incident Commander** is an interactive crisis-management simulation set inside a fictional digital-asset exchange.
+**ExchangeOps** is a short browser simulation about running a crypto exchange through a bad market-data event.
 
-You take the role of an on-call Major Incident Manager during a fast-moving market incident. The experience is designed around incomplete information, competing priorities, user impact, operational controls, and the consequences of communication under pressure.
+You are on call at Asterion, a fictional exchange. BTC-PERP's mark price starts drifting away from other price sources. Liquidations rise, support tickets pile up, and a rumor begins to spread.
 
-It is part operational simulation, part role-playing experience: there are no perfect answers, only decisions and trade-offs.
+Your job is to decide what to pause, what to keep running, what to tell users, and how to leave a decision record that can stand up to review.
+
+There is no perfect run. Every action protects one thing while putting pressure on something else.
 
 ## Inspiration
 
-The project is inspired by incident-management practice across financial infrastructure, exchange operations, trading operations, risk control, customer support, and reliability engineering.
+This project was built around the operational problems that sit behind a trading screen: price-source failures, liquidation controls, support backlogs, withdrawal rumors, escalation calls, and the uncomfortable gap between what a team knows and what users need to hear.
 
-It explores a simple question:
+The scenario is fictional, but the trade-offs are intended to feel familiar to people who work around exchanges, market infrastructure, risk, support, or incident response.
 
-> When market infrastructure begins to fail, how do teams protect users, keep services usable, communicate responsibly, and recover with an auditable record?
+## How it works
 
-The scenario design draws on broadly observed operational patterns -- such as data-quality alerts, abnormal liquidations, support surges, withdrawal rumours, escalation workflows, and post-incident review -- rather than any single company, event, or internal process.
+1. Monitor a rapidly changing exchange incident.
+2. Make operational decisions with incomplete information.
+3. Review the customer, market, trust, and compliance consequences in a post-incident report.
 
 ## Episode 01: The Candle Is Lying
 
-BTC-PERP mark price diverges from backup consensus during volatile conditions. The player must manage abnormal-liquidation risk, user complaints, market controls, withdrawal rumours, and an evidence-led recovery process.
+BTC-PERP's mark price diverges from backup consensus during volatile conditions. The player must manage abnormal-liquidation risk, user complaints, market controls, withdrawal rumors, and an evidence-led recovery process.
 
 ## What the experience demonstrates
 
@@ -56,11 +60,11 @@ BTC-PERP mark price diverges from backup consensus during volatile conditions. T
 
 ## Fictional scenario and limitations
 
-This is a fictional portfolio simulation created for learning, design exploration, and operational storytelling.
+This is a fictional simulation created for learning, design exploration, and operational storytelling.
 
 - All companies, exchange names, systems, characters, metrics, messages, prices, accounts, and events are fictional.
 - The simulation does not use live market data, exchange APIs, customer data, wallet data, or trading functionality.
-- Decisions, outcomes, and scores are simplified for interactive learning and do not constitute operational, legal, compliance, security, financial, or trading advice.
+- Decisions, outcomes, and scores are simplified for interactive learning. They do not constitute operational, legal, compliance, security, financial, or trading advice.
 - The experience does not guarantee that a similar response would be appropriate in a real-world incident.
 
 Any resemblance to real exchanges, products, systems, events, persons, incidents, or operational procedures is purely coincidental.
@@ -73,4 +77,4 @@ If you spot an unrealistic assumption, missing trade-off, unclear decision, or b
 
 ## Repository note
 
-This repository contains public project documentation and media. The interactive demo is available at the link above.
+This repository contains project documentation and media. The live simulation is available at the link above.

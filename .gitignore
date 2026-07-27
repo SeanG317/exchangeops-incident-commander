@@ -1,0 +1,48 @@
+# Local operating-system and editor files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+
+# Secrets and local deployment material
+.env
+.env.*
+*.pem
+*.key
+*.crt
+*.jsonl
+.cloudflared/
+
+# Dependency and build folders
+node_modules/
+dist/
+build/
+.next/
+.vinext/
+.wrangler/
+coverage/
+
+# Application source and config should not be published in this showcase repo
+app/
+src/
+components/
+lib/
+db/
+worker/
+examples/
+tests/
+*.ts
+*.tsx
+*.js
+*.jsx
+*.css
+package.json
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+vite.config.*
+next.config.*
+tsconfig.json
+drizzle.config.*
+eslint.config.*
